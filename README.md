@@ -94,6 +94,8 @@ mkdir sensor_data
 - In ThingSpeak, go to your channel, choose "Apps" => "React," and click "New React."
 - Configure the React app to trigger when temperature is above 22 degrees
 
+## Appendix: if there is issue with camera or to test the solution you can upload images directly from images folder to the database: 
+[harmonyHashMonitor.py](https://github.com/Ruslan-Zhabskyi/HarmonyHush-Monitor/blob/main/harmonyHashMonitor.py)
 
  
 
