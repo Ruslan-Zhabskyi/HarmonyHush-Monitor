@@ -60,6 +60,19 @@ Ensure to update var dstIP in the MCU0 with rpi IP (ifconfig)
 mkdir images
 mkdir sensor_data
 ```
--Add 
+- Add [originalHarmonyHashMonitor.py](https://github.com/Ruslan-Zhabskyi/HarmonyHush-Monitor/blob/main/originalHarmonyHashMonitor.py) file to the directory
+
+## Set up [ThingSpeak Account](https://thingspeak.com/)
+- Create channel with temperature and humidity fields
+- Create a ThingSpeak MQTT Device
+- Create .env file with configuration data
+  ```
+  username = [YOUR USER NAME]
+  clientId = [YOUR CLIENT ID]
+  password = [YOUR PASSWORD]
+  mqttUrl = [YOUR MQTT URL]
+  channelId = [YOUR CHANNEL ID]
+  transmissionInterval = 15
+  ```
 
 
