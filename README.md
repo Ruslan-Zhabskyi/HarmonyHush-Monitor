@@ -55,6 +55,12 @@ Ensure to update var dstIP in the MCU0 with rpi IP (ifconfig)
 
 ## 4. Add [Montion Listner python code](https://github.com/Ruslan-Zhabskyi/HarmonyHush-Monitor/blob/main/udpMotionListner.py) to the directoty
 
+## 5. Set up images and sensor_data in the project directory
+```
+mkdir images
+mkdir sensor_data
+```
+
 
 
 
