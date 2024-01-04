@@ -4,9 +4,9 @@ Computer Systems &amp; Networks assignment 2
 <p>HarmonyHush is equipped with sensors and a camera to monitor the environment. It uses Machine Learning to analyse the environment around the child during sleep time.</p>
 
 ## Equipment needed
--Raspberry Pi 4 Model B
--Sense HAT
--Camera
+- Raspberry Pi 4 Model B
+- Sense HAT
+- Camera
 
 ## Technologies:
 - Python
