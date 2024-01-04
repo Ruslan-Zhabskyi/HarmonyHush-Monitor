@@ -60,7 +60,6 @@ Ensure to update var dstIP in the MCU0 with rpi IP (ifconfig)
 mkdir images
 mkdir sensor_data
 ```
-
-
+-Add 
 
 
