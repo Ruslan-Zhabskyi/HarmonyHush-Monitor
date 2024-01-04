@@ -33,6 +33,7 @@ pip install firebase-admin==5.4.0
 - Register app with Firebase [link](https://firebase.google.com/docs/web/setup)
 - Create a copy the serviceAccountKey.json in the project directory on rpi
 - create [storeFileFB.py](https://github.com/Ruslan-Zhabskyi/HarmonyHush-Monitor/blob/main/storeFileFB.py) in the directory
+Note: In storeFileFB.py, replace the value for storageBucket and databaseURL
 
 
 
