@@ -91,17 +91,10 @@ mkdir sensor_data
 - Set the method to "GET."
 
 ## 8. React App Setup:
-
-### a. Create React App:
 - In ThingSpeak, go to your channel, choose "Apps" => "React," and click "New React."
 - Configure the React app to trigger when temperature is above 22 degrees
 
-### b. Receive Email Notification:
-- Once the temperature condition is met, you'll receive an email. This notification occurs only the first time the condition is met.
 
-These steps integrate SensePi, ThingHTTP, and IFTTT to trigger an email notification when the temperature exceeds a specified threshold. Adjust the temperature threshold and other parameters as needed.
-
-```
  
 
 
