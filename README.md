@@ -53,6 +53,8 @@ Note: In storeFileFB.py, replace the value for storageBucket and databaseURL
 ## 3. [Import Cisco Packet Tracer](https://github.com/Ruslan-Zhabskyi/HarmonyHush-Monitor/blob/main/motion_detector.pkt) to replace physical motion sensor
 Ensure to update var dstIP in the MCU0 with rpi IP (ifconfig)
 
+## 4. Add [Montion Listner python code](https://github.com/Ruslan-Zhabskyi/HarmonyHush-Monitor/blob/main/udpMotionListner.py) to the directoty
+
 
 
 
