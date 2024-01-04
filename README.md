@@ -62,7 +62,7 @@ mkdir sensor_data
 ```
 - Add [originalHarmonyHashMonitor.py](https://github.com/Ruslan-Zhabskyi/HarmonyHush-Monitor/blob/main/originalHarmonyHashMonitor.py) file to the directory
 
-## Set up [ThingSpeak Account](https://thingspeak.com/)
+## 5. Set up [ThingSpeak Account](https://thingspeak.com/)
 - Create channel with temperature and humidity fields
 - Create a ThingSpeak MQTT Device
 - Create .env file with configuration data
@@ -74,5 +74,34 @@ mkdir sensor_data
   channelId = [YOUR CHANNEL ID]
   transmissionInterval = 15
   ```
+ ## 6. Set up [IFTT account](https://ifttt.com/explore)
+  ##### a. Create an IFTTT account
+  ##### b. Create Trigger. Select the Webhooks service, search for "Webhooks," and choose the "Receive a web request" card.
+  ##### c. Create Action. Click on "Add" in the "Then That" card. Search for "Email" and select the "Send me an email" card. Connect your email address, update the subject and body of the event email, and click "Continue" and then "Finish."
+  ##### d. Get Trigger URL. Click your user icon, go to "Services," scroll down, select "Webhooks," and click on "Documentation."
+
+## 7. ThingHTTP Setup:
+
+### a. Open SensePi Channel in ThingSpeak:
+- Go to your SensePi channel in ThingSpeak.
+
+### b. Create ThingHTTP:
+- Choose "Apps" => "ThingHTTP" and select "New ThingHTTP."
+- Enter the URL from the Webhooks documentation in the "URL" field.
+- Set the method to "GET."
+
+## 8. React App Setup:
+
+### a. Create React App:
+- In ThingSpeak, go to your channel, choose "Apps" => "React," and click "New React."
+- Configure the React app to trigger when temperature is above 22 degrees
+
+### b. Receive Email Notification:
+- Once the temperature condition is met, you'll receive an email. This notification occurs only the first time the condition is met.
+
+These steps integrate SensePi, ThingHTTP, and IFTTT to trigger an email notification when the temperature exceeds a specified threshold. Adjust the temperature threshold and other parameters as needed.
+
+```
+ 
 
 
