@@ -98,5 +98,8 @@ mkdir sensor_data
 [harmonyHashMonitor.py](https://github.com/Ruslan-Zhabskyi/HarmonyHush-Monitor/blob/main/harmonyHashMonitor.py)
 
  
-
+## 9. Set up web app using [Glicth](https://glitch.com/):
+- Import [project](https://github.com/Ruslan-Zhabskyi/HarmonyHashWebApp) to your glitch account
+- Update script.js file with your firebaseConfig
+- Update index.html ThingSpeak Chart Embed Code section with relevant URLs
 
